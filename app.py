@@ -26,7 +26,7 @@ def index():
     return render_template('index.html')
 
 # نقطة النهاية
-@app.route('/classify', methods=['POST'])
+@app.route('/upload', methods=['POST'])
 def classify_image():
     if 'image' not in request.files:
         return jsonify({'error': 'No image provided'})
