@@ -1,4 +1,4 @@
-PyTorch
+torch==1.10.0
 flask
 pillow
 Torchvision
