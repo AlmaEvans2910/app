@@ -2,3 +2,4 @@ PyTorch
 flask
 pillow
 Torchvision
+gunicorn
